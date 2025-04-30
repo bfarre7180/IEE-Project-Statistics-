@@ -58,7 +58,7 @@ Now using the equations for the paired t-test we should be able to come to a con
 **Hypotheses:**
 
 H₀: μ<sub>D</sub> = 0  
-H₁: μ<sub>D</sub> > 0
+H₁: μ<sub>D</sub> ≠ 0
 
 **Test statistic:**
 
@@ -79,3 +79,29 @@ s<sub>D</sub> = 0.22618
 t<sub>α/2, n−1</sub> = 3.24984
 
 df = n - 1 = 9
+
+**Results:**
+
+t<sub>0</sub> = 1.3889
+
+p-value = 0.09913
+
+Confidence interval --->  -0.1331 ≤ μ<sub>D</sub> ≤ 0.3318
+
+---
+
+## 💡 Conclusions
+
+Since the p-value is > ɑ that means that we will fail to reject the null hypothesis which means that there is not sufficient evidence to support that they have different mean times to compute. This puts us at the interval, I believe at 99% confidence that the true mean difference between the two lies between the interval [-0.1131,0.3318]ms.
+
+---
+
+## ⚙️ Technologies
+
+Used C++ to make the program that runs the tests and used the chrono library along with others, like stdio, and iostream for I/O.
+
+---
+
+## 🕵🏻 Author
+
+**Brandon Farrell**
