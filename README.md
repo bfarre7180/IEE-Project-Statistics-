@@ -72,7 +72,7 @@ t₀ = **d̄** / (s<sub>D</sub> / √n)
 
 n = 10
 
-**d̄** = 0.09934
+**d̄** = 0.09934 ms
 
 s<sub>D</sub> = 0.22618
 
@@ -86,7 +86,7 @@ t<sub>0</sub> = 1.3889
 
 p-value = 0.09913
 
-Confidence interval --->  -0.1331 ≤ μ<sub>D</sub> ≤ 0.3318
+Confidence interval --->  -0.1331 ms ≤ μ<sub>D</sub> ≤ 0.3318 ms
 
 ---
 
