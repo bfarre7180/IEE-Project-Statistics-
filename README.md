@@ -2,7 +2,7 @@
 
 📊 **Recursion vs Iteration Performance Analysis in C++**
 
-This project demonstrates the performance difference between recursive and iterative implementations using C++. It uses the `<chrono>` library for precise benchmarking and performs a basic statistical analysis (paired t-test) to show that recursion is slower than iteration for specific problems.
+This project demonstrates the performance difference between recursive and iterative implementations using C++. It uses the `<chrono>` library for precise benchmarking and performs a basic statistical analysis (paired t-test) to show that recursion and iteration have the same mean difference time to execute for 10 given methods.
 
 ---
 
