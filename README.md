@@ -52,3 +52,18 @@ cd IEE-Project-Statistics-
 
 Every time you run the program the output will be slightly different from one another but each give the same result. In one of them I got this
 ![image](https://github.com/user-attachments/assets/237012b5-c7b3-4616-853d-9c3844970c60)
+
+Now using the equations for the paired t-test we should be able to come to a conclusion, I will make a test statistic that will be able to find the p-value and I can make a two-sided confidence interval using ɑ = 1%, and the null hypothesis will be.
+
+**Hypotheses:**
+
+H₀: μ_D = 0  
+H₁: μ_D > 0
+
+**Test statistic:**
+
+t₀ = **d̄** / (s_D / √n)
+
+**Confidence Interval:**
+
+**d̄** − t<sub>α/2, n−1</sub> × (s_D / √n) ≤ μ_D ≤ **d̄** + t<sub>α/2, n−1</sub> × (s_D / √n)
