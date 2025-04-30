@@ -57,13 +57,21 @@ Now using the equations for the paired t-test we should be able to come to a con
 
 **Hypotheses:**
 
-H₀: μ_D = 0  
-H₁: μ_D > 0
+H₀: μ<sub>D</sub> = 0  
+H₁: μ<sub>D</sub> > 0
 
 **Test statistic:**
 
-t₀ = **d̄** / (s_D / √n)
+t₀ = **d̄** / (s<sub>D</sub> / √n)
 
 **Confidence Interval:**
 
-**d̄** − t<sub>α/2, n−1</sub> × (s_D / √n) ≤ μ_D ≤ **d̄** + t<sub>α/2, n−1</sub> × (s_D / √n)
+**d̄** − t<sub>α/2, n−1</sub> × (s<sub>D</sub> / √n) ≤ μ<sub>D</sub> ≤ **d̄** + t<sub>α/2, n−1</sub> × (s<sub>D</sub> / √n)
+
+**Data:**
+
+n = 10
+**d̄** = 0.09934
+s<sub>D</sub> = 0.22618
+t<sub>α/2, n−1</sub> = 3.24984
+df = n - 1 = 9
